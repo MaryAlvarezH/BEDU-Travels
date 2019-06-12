@@ -127,3 +127,14 @@ collection > card {
     text-align: center;
     align-content: center;
 }
+
+footer {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    font-style: oblique;
+    padding: 30px;
+    align-content: center;
+}
