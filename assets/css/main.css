@@ -106,3 +106,24 @@ h3 {
     border-radius: 0.5em;
     margin: 2px;
 }
+
+collection {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    widows: 100%;
+}
+
+collection > card {
+    margin: 0.5%;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    align-content: center;
+}
