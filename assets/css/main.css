@@ -42,3 +42,67 @@ h3 {
     color: white;
 }
 
+
+#portada{
+    background-image: url("../images/portada.jpg");
+    height: 65vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
+    
+}
+
+#portada > span {
+    font-size: 40px;
+    color: white;
+}
+
+#portada > p {
+  font-size: 20px;
+  color: white;
+
+}
+
+#portada > search > div > input {
+   
+    height: 35px;
+    width: 35vh;
+    background: transparent;
+    border: none;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    margin: 0;
+  
+}
+#portada > search > div > input:focus{
+    border-color: transparent;
+   border-width: 0ch;
+    
+}
+
+#portada > search > div {
+    height: 35px;
+    /* width: 40vh; */
+    border-color: transparent;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 0.5em;
+    box-shadow: 0 8px 6px -6px black;
+    justify-content: center;
+    align-items: center;
+}
+
+#portada > search > div > button {
+    height: 31px;
+    width: 4vh;
+    background-color: #00b1b1;
+    color: white;
+    border: transparent;
+    border-radius: 0.5em;
+    margin: 2px;
+}
