@@ -103,6 +103,9 @@ h3 {
     margin: 2px;
 }
 
+
+
+/* only flexbox
 .collection {
     display: flex;
     flex-wrap:wrap;
@@ -132,15 +135,80 @@ h3 {
 .destiny-section p {
  font-size: 18px;
 
+} */
+
+
+.collection {
+    text-align: center;
 }
+.grid {
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 400px 400px; 
+    grid-gap: 10px 30px;
+    /* separaciones entre el grid */
+}
+
+.collection {
+    display:flex;
+    justify-content: center;
+}
+
+card {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    line-height: 3.5em
+}
+
+.destiny-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.destiny-section p {
+ font-size: 18px;
+}
+
+
 
 footer {
     background-color: black;
-    height: 20px;
+    height: 15vh;
     text-align: center;
     font-size: 14px;
     color:white;
     font-style: oblique;
     padding: 30px;
     align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+footer .contact {
+    text-align: left;
+    padding: 20px;
+    font-style: normal;
+}
+
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    padding: 60px;
+}
+footer .social.media a {
+    background: white;
+    padding: 40px;
+}
+footer .social-media a img {
+    width: 35px;
+    height: 35px;
 }
