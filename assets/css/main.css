@@ -5,27 +5,22 @@ body{
 }
 
 nav{
-    height: 3.5vh;
+    height: 9vh;
     width: 100%;
     background-color: black;
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
-    align-content: space-between
+    justify-content: space-between;
+    align-items: center;
     
 }
-.figure {
-    margin: 0;
-    padding: 0;
-}
 
-nav > a {
+nav a,
+nav div a {
     color: #fff;
-    height: inherit;
-    list-style: none;
-    padding: 0 15px;
-    align-self: flex-end;
-    margin: 0;
+    padding: 0 10px;
+    text-decoration: none; 
+    
 }
 
 h1,
@@ -44,9 +39,10 @@ h3 {
 
 
 #portada{
-    background-image: url("../images/portada.jpg");
-    height: 65vh;
+    background-image: url("../images/portada5.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -107,25 +103,35 @@ h3 {
     margin: 2px;
 }
 
-collection {
+.collection {
     display: flex;
     flex-wrap:wrap;
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    padding: 5%;
     widows: 100%;
 }
 
-collection > card {
-    margin: 0.5%;
+.collection card {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    line-height: 3.5em
 }
 
-.subtitle {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    align-content: center;
+.destiny-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.destiny-section p {
+ font-size: 18px;
+
 }
 
 footer {
