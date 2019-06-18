@@ -1,0 +1,217 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav a,
+nav div a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none; 
+    
+}
+nav img {
+    width: 60px;
+    height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+#portada{
+    background-image: url("../images/portada5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.aside-container {
+    background-color: #ebe7e8;
+    /* display: block; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    padding: 20px;
+    width: 20vw;
+    margin-right: 5px;
+}
+.aside-container label {
+    display:block;
+}
+.places-container {
+    background-color: #ebe7e8;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 80vw;
+    margin-left: 5px;
+}
+
+footer {
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    font-style: oblique;
+    padding: 30px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+footer .contact {
+    text-align: left;
+    padding: 20px;
+    font-style: normal;
+}
+
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+    padding: 60px;
+}
+
+.social-media .fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.social-media .fa:hover {
+    opacity: 0.7;
+  }
+.social-media .fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+.social-media .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.social-media .fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+  }
+
+
+.aside-container {
+    height: 165vh;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    padding: 12px;
+}
+  
+.places-container {
+    height: 165vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+
+   
+}
+
+.place-item {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+.place-item img {
+    width: 350px;
+    height: 250px;
+    
+}
+
+.place-item .place-details {
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.place-details .scheduler{
+    display:grid;
+    grid-template-columns: 200px 200px 340px;
+    grid-template-rows: 100px;
+    grid-gap: 10px 30px;
+    font-size: 13px;
+    color: #7f7f7f; 
+}
+
+.place-details p {
+    font-size: 14px;
+}
+.scheduler div span {
+    display:block;
+    margin: 3px 0px;
+}
+
+.left-side {
+    text-align: left;
+    font-weight: 600;
+}
+.right-side {
+    text-align: right;
+    
+}
+.scheduler .button {
+    text-align: right;
+    align-self: flex-end;
+}
+.scheduler button {
+    background-color: #259725;
+    border-color: transparent;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
